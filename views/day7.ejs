@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day <%=day%></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/day/<%= day - 1 %>">
+            <button class="nav-button">전날</button>
+        </a>
+        <div class="logo">뒝</div>
+        <a href="/day/<%= day + 1 %>">
+            <button class="nav-button">다음날</button>
+        </a>
+    </div>
+</body>
+</html>
