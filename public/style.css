@@ -21,3 +21,21 @@
 .nav-button:hover {
     background-color: #0056b3;
 }
+
+h4 {
+    margin-top: 20px;
+    margin-left: 10vw;
+}
+
+table{ border-collapse : collapse; }  /*이중선 제거*/
+th,td{
+     height: 50px;
+     text-align: center;
+     border: 1px solid #000;
+     
+     vertical-align: top;	/* 위 */
+     vertical-align: bottom;   /* 아래 */
+     vertical-align: middle;   /* 가운데 */
+   }
+th.t {width: 20vw;}
+th.p {width: 60vw;}
